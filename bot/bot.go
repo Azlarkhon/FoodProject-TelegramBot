@@ -12,7 +12,7 @@ func StartBot() {
 
 	var err error
 
-	bot, err = tgbotapi.NewBotAPI("7002030558:AAFeSq5sWbDJahrs3h4BpMDKdbcPT9vYRZA")
+	bot, err = tgbotapi.NewBotAPI("BotApi")
 	if err != nil {
 		log.Fatalf("Error creating bot: %v", err)
 	}
